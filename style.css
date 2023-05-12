@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    
+    width: 100%;
+  }
+
+h1{
+    text-transform: uppercase;
+}
+
+.adiyogi {
+    color: white;
+    background-image: url(./assets/images/Adiyogi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    height: 1199px;
+    width: 1199px;
+    margin-left: 175px;
+    margin-top: 0%;
+}
+
+.poster{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    height: 750px;
+    margin-top: 100px;
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+    font-family: "Liber Baskkerville", serif;
+}
+
+.image{
+    border: 5px solid white;
+    width: 100%;
+}
+.background{
+    border: 5px solid white;
+    
+}
+
+.poster img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.poster:hover img {
+    transform: scale(1.05);
+}
+
+h1:hover, h2:hover {
+    transform: scale(1.2); 
+    color: white;
+}
